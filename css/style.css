@@ -150,6 +150,10 @@ body{
 
 .ads-text h3 {
   color: white;
-  font-size: 25px ;
+  font-size: 35px ;
   text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ads-text a {
+  color: white;
 }
