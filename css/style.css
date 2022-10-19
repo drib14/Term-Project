@@ -1,6 +1,155 @@
-.CoffeeBean {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #312a26;
 }
-img {
-  padding-top:50px;
+
+/* All headers Area*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+label,
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+  color: #7c7c7c;
+}
+
+body{
+  width: 100%;
+}
+
+/*Header Area*/
+
+.nav {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav ul {
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav p {
+  font-style: italic ;
+}
+
+/*Banner*/
+
+.banner {
+  height: 650px;
+  background-color: orange;
+  background-image: url(../images/atf-image.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+.banner-text {
+  width: 30%;
+  position: relative;
+  top: 20%;
+  left: 7.5%;
+  font-size: larger;
+}
+
+.banner h2 {
+  text-transform: uppercase;
+  font-size: 75px;
+  line-height: 75px;
+}
+
+.banner a {
+  padding: 15px 20px;
+  background-color: #312a26;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.banner span {
+  color: rgb(13, 126, 18);
+}
+
+.banner p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/*Ads Area*/
+
+.ads {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box {
+  width: 49.5%;
+  float: left;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(3) {
+  margin-right: 1%;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(2) {
+  margin-bottom: 1%;
+}
+
+.ads-box:nth-child(1) {
+  background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box:nth-child(2) {
+  background-image: url(../images/merchandise2.jpg);
+}
+
+.ads-text {
+  width: 30%;
+  position: relative;
+  top: 30%;
+  left: 7.5%;
+}
+
+.ads-text h3 {
+  color: white;
+  font-size: 25px ;
+  text-transform: uppercase;
 }
