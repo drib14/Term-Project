@@ -13,7 +13,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
 }
 
 p,
@@ -144,16 +145,33 @@ body{
 .ads-text {
   width: 30%;
   position: relative;
-  top: 30%;
+  top: 20%;
   left: 7.5%;
+  font-size: larger;
 }
 
 .ads-text h3 {
-  color: white;
-  font-size: 35px ;
   text-transform: uppercase;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ads-text a {
+  font-size: 40px;
+  line-height: 75px;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif
+  word-spacing: 1px;
+
+ 
+}
+
+.ads-text a {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 75px;
+  color: white;
+}
+
+/*HR Area*/
+
+.home p {
+  font-style: italic;
+  color: burlywood;
+  right: 50%;
 }
