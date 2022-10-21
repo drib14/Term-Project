@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
 }
 
@@ -117,7 +117,7 @@ body{
 .ads-box {
   width: 49.5%;
   float: left;
-  height: 350px;
+  height: 450px;
   background-size: cover;
   background-position: center;
   background-color: #312a26;
@@ -179,11 +179,11 @@ body{
 }
 
 .home h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin-left: 45%;
   margin-bottom: 2%;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
 }
 .home hr{
   border: solid 5px burlywood;
@@ -194,3 +194,257 @@ body{
 
 /*Sales Area*/
 
+/*First block of images*/
+
+.block1{
+  display: inline-flex;
+  text-align: left;
+  max-width: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  margin-left: 9%;
+}
+.column1 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column1 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column2 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column2 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column2 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column3 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column3 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column3 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column4 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column4 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column4 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.block2 {
+  margin-left: 6%;
+  display: inline-flex;
+  text-align: left;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.column5 {
+  float: left;
+  margin-left: 9%;
+}
+
+.column5 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column5 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column6 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column6 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column6 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column7 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column7 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column7 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column8 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column8 {
+  float: left;
+  margin-left: 4%;
+}
+
+.column8 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+/*2nd Ads Area */
+
+.special {
+
+}
+
+/*HR2 Area*/
+.class p {
+  font-style: italic;
+  color: burlywood;
+  margin-left: 50%;
+  margin-bottom: 1%;
+  font-size: 25px;
+}
+
+.class h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 48%;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.class hr {
+  border: solid 5px burlywood;
+  margin-left: 50%;
+  margin-bottom: 2%;
+  margin-right: 42%;
+}
+
+/*3rd Block of images*/
+
+.column9 {
+  float: left;
+  margin-left: 7%;
+}
+
+.column9 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column9 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column10 {
+  float: left;
+  margin-left: 3%;
+}
+
+.column10 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column10 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column11 {
+  float: left;
+  margin-left: 3%;
+}
+
+.column11 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column11 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
+
+.column12 {
+  float: left;
+  margin-left: 3%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+.column12 p {
+  font-family: sans-serif;
+  color: rgb(172, 102, 102);
+}
+
+.column12 h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(53, 32, 32);
+  font-size: 15px;
+}
