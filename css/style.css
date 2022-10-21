@@ -186,9 +186,11 @@ body{
   font-size: 40px;
 }
 .home hr{
-  border: solid;
-  border-color: burlywood;
+  border: solid 5px burlywood;
   margin-left: 50%;
   margin-bottom: 2%;
   margin-right: 42%;
 }
+
+/*Sales Area*/
+
