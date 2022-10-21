@@ -350,8 +350,9 @@ body{
 /*2nd Ads Area */
 
 .special {
-
+  background-image: url(/images/banner.jpg);
 }
+
 
 /*HR2 Area*/
 .class p {
@@ -447,4 +448,52 @@ body{
   font-weight: lighter;
   color: rgb(53, 32, 32);
   font-size: 15px;
+}
+
+/*3rd Ad*/
+
+.ads3 {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box1 {
+  width: 49.5%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box2 {
+  width: 49.5%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box1:nth-child(1),
+.ads-box1:nth-child(3) {
+  margin-right: 1%;
+}
+
+.ads-box1:nth-child(1),
+.ads-box1:nth-child(2) {
+  margin-bottom: 1%;
+}
+
+.ads-box1:nth-child(1) {
+  background-image: url(../images/merchandise3.jpg);
+}
+
+.ads-box1:nth-child(2) {
+  background-image: url(../images/merchandise4.jpg);
 }
