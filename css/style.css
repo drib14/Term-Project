@@ -353,30 +353,12 @@ body{
   margin-left: 220px;
   margin-right: 1000px;
   margin-bottom: 5%;
-}
-
-.ads-box3 {
-  width: 100%;
-  float: left;
-  height: 450px;
-  background-size: cover;
-  background-position: center;
-  background-color: #312a26;
-  position: relative;
-}
-
-.ads-box3:nth-child(1),
-.ads-box3:nth-child(2) {
-  margin-bottom: 1%;
-}
-
-
-
-.ads-box3:nth-child(1) {
   background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.ads2 h3 {
+.ads2 h3 {  
   font-size: 50px;
   margin-top: 5%;
   text-align: center;
@@ -624,4 +606,24 @@ body{
   font-size: 15px;
   line-height: 75px;
   color: white;
+}
+
+.reservation {
+  display: inline-block;
+  background-color: gray;
+}
+
+.reservation1 h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 45%;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.reservation1 hr {
+  border: solid 5px burlywood;
+  margin-left: 46%;
+  margin-bottom: 2%;
+  margin-right: 48%;
 }
