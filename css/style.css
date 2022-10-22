@@ -357,33 +357,39 @@ body{
  margin-top: 1%;
  margin-right: 7.5%;
  margin-left: 7%;
+ margin-bottom: 1%;
 }
 
 .special p {
+  padding-top: 3%;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 75px;
   color: white;
-  margin-left: 50%;
+  margin-left: 45%;
 }
 
 .special a {
-  text-transform: uppercase;
-  font-size: 15px;
-  line-height: 75px;
-  color: #312a26;
-  padding: 12px 15px;
+  margin-left: 3%;
+  padding: 15px 20px;
   background-color: white;
-  margin-left: 5%;
+  color: #312a26;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .special h3 {
+  padding-top: 0%;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 75px;
   line-height: 75px;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   word-spacing: 1px;
+  margin-left:  36%;
 }
 
 /*HR2 Area*/
@@ -480,4 +486,78 @@ body{
   font-weight: lighter;
   color: rgb(53, 32, 32);
   font-size: 15px;
+}
+
+.ads3 {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box1 {
+  width: 49.5%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box1:nth-child(1),
+.ads-box1:nth-child(3) {
+  margin-right: 1%;
+}
+
+.ads-box1:nth-child(1),
+.ads-box1:nth-child(2) {
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+}
+
+.ads-box1:nth-child(1) {
+  background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box1:nth-child(2) {
+  background-image: url(../images/merchandise2.jpg);
+}
+
+.ads4 {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box2 {
+  width: 49.5%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+  margin-top: 0px;
+}
+
+.ads-box2:nth-child(1),
+.ads-box2:nth-child(3) {
+  margin-right: 1%;
+}
+
+.ads-box2:nth-child(1),
+.ads-box1:nth-child(2) {
+  margin-bottom: 1%;
+}
+
+.ads-box2:nth-child(1) {
+  background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box2:nth-child(2) {
+  background-image: url(../images/merchandise2.jpg);
 }
