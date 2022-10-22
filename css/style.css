@@ -350,7 +350,40 @@ body{
 /*2nd Ads Area */
 
 .special {
+ background-image: url(../images/banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+ margin-top: 1%;
+ margin-right: 7.5%;
+ margin-left: 7%;
+}
 
+.special p {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 75px;
+  color: white;
+  margin-left: 50%;
+}
+
+.special a {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 75px;
+  color: #312a26;
+  padding: 12px 15px;
+  background-color: white;
+  margin-left: 5%;
+}
+
+.special h3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 75px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 1px;
 }
 
 /*HR2 Area*/
