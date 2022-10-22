@@ -155,10 +155,8 @@ body{
   font-size: 40px;
   line-height: 75px;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
   word-spacing: 1px;
-
- 
 }
 
 .ads-text a {
@@ -349,12 +347,60 @@ body{
 
 /*2nd Ads Area */
 
-.special {
-  background-image: url(/images/banner.jpg);
+.ads2 {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box3 {
+  width: 100%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box3:nth-child(1),
+.ads-box3:nth-child(2) {
+  margin-bottom: 1%;
+}
+
+.ads-box3:nth-child(1) {
+  background-image: url(../images/banner.jpg);
+}
+
+.ads2 h3 {
+  font-size: 50px;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+
+.ads2 a {
+  margin-top: 1%;
+  margin-left: 10px;
+  padding: 15px 20px;
+  background-color: white;
+  color: #312a26;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ads2 p {
+  font-style: italic;
+  text-align: center;
 }
 
 
 /*HR2 Area*/
+
 .class p {
   font-style: italic;
   color: burlywood;
@@ -389,6 +435,8 @@ body{
   font-family: sans-serif;
   color: rgb(172, 102, 102);
 }
+
+/*3rd block of images*/
 
 .column9 h4 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -457,20 +505,10 @@ body{
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .ads-box1 {
-  width: 49.5%;
-  float: left;
-  height: 450px;
-  background-size: cover;
-  background-position: center;
-  background-color: #312a26;
-  position: relative;
-}
-
-.ads-box2 {
   width: 49.5%;
   float: left;
   height: 450px;
@@ -487,7 +525,7 @@ body{
 
 .ads-box1:nth-child(1),
 .ads-box1:nth-child(2) {
-  margin-bottom: 1%;
+  margin-bottom: 0px;
 }
 
 .ads-box1:nth-child(1) {
@@ -496,4 +534,67 @@ body{
 
 .ads-box1:nth-child(2) {
   background-image: url(../images/merchandise4.jpg);
+}
+
+
+/*Ads 4*/
+
+.ads4 {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.ads-box2 {
+  width: 49.5%;
+  float: left;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-color: #312a26;
+  position: relative;
+}
+
+.ads-box2:nth-child(1),
+.ads-box2:nth-child(3) {
+  margin-right: 1%;
+}
+
+.ads-box2:nth-child(1),
+.ads-box2:nth-child(2) {
+  margin-top: 0px;
+}
+
+.ads-box2:nth-child(1) {
+  background-image: url(../images/merchandise5.jpg);
+}
+
+.ads-box2:nth-child(2) {
+  background-image: url(../images/merchandise6.jpg);
+}
+
+.ads-text2 {
+  width: 30%;
+  position: relative;
+  top: 20%;
+  left: 7.5%;
+  font-size: larger;
+}
+
+.ads-text2 h3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 75px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 1px;
+}
+
+.ads-text2 a {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 75px;
+  color: white;
 }
