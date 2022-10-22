@@ -171,23 +171,23 @@ body{
 .home p {
   font-style: italic;
   color: burlywood;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-bottom: 1%;
   font-size: 25px;
 }
 
 .home h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-bottom: 2%;
   text-transform: uppercase;
   font-size: 50px;
 }
 .home hr{
   border: solid 5px burlywood;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-bottom: 2%;
-  margin-right: 42%;
+  margin-right: 48%;
 }
 
 /*Sales Area*/
@@ -198,13 +198,12 @@ body{
   display: inline-flex;
   text-align: left;
   max-width: 100%;
-  margin: 10px;
   box-sizing: border-box;
 }
 
 .column1 {
   float: left;
-  margin-left: 9%;
+  margin-left: 8%;
 }
 .column1 h4 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -220,7 +219,7 @@ body{
 
 .column2 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .column2 h4 {
@@ -237,7 +236,7 @@ body{
 
 .column3 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .column3 h4 {
@@ -254,7 +253,7 @@ body{
 
 .column4 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .column4 h4 {
@@ -279,7 +278,7 @@ body{
 
 .column5 {
   float: left;
-  margin-left: 9%;
+  margin-left: 8%;
 }
 
 .column5 h4 {
@@ -296,7 +295,7 @@ body{
 
 .column6 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .column6 h4 {
@@ -320,7 +319,7 @@ body{
 
 .column7 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .column7 p {
@@ -337,7 +336,8 @@ body{
 
 .column8 {
   float: left;
-  margin-left: 4%;
+  margin-left: 3%;
+  margin-bottom: 1%;
 }
 
 .column8 p {
@@ -350,8 +350,8 @@ body{
 .ads2 {
   overflow: auto;
   width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 220px;
+  margin-right: 1000px;
   margin-bottom: 5%;
 }
 
@@ -370,6 +370,8 @@ body{
   margin-bottom: 1%;
 }
 
+
+
 .ads-box3:nth-child(1) {
   background-image: url(../images/banner.jpg);
 }
@@ -378,7 +380,9 @@ body{
   font-size: 50px;
   margin-top: 5%;
   text-align: center;
+  text-transform: uppercase;
   color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ads2 a {
@@ -404,14 +408,14 @@ body{
 .class p {
   font-style: italic;
   color: burlywood;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-bottom: 1%;
   font-size: 25px;
 }
 
 .class h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 48%;
+  margin-left: 43%;
   margin-bottom: 2%;
   text-transform: uppercase;
   font-size: 50px;
@@ -419,24 +423,22 @@ body{
 
 .class hr {
   border: solid 5px burlywood;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-bottom: 2%;
-  margin-right: 42%;
+  margin-right: 48%;
 }
 
 /*3rd Block of images*/
 
 .column9 {
   float: left;
-  margin-left: 7%;
+  margin-left: 6%;
 }
 
 .column9 p {
   font-family: sans-serif;
   color: rgb(172, 102, 102);
 }
-
-/*3rd block of images*/
 
 .column9 h4 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -447,7 +449,7 @@ body{
 
 .column10 {
   float: left;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .column10 p {
@@ -464,7 +466,7 @@ body{
 
 .column11 {
   float: left;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .column11 p {
@@ -481,9 +483,8 @@ body{
 
 .column12 {
   float: left;
-  margin-left: 3%;
-  margin-right: 8%;
-  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-bottom: 1%;
 }
 
 .column12 p {
@@ -503,8 +504,8 @@ body{
 .ads3 {
   overflow: auto;
   width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 220px;
+  margin-right: 85%;
   margin-bottom: 1%;
 }
 
@@ -542,8 +543,8 @@ body{
 .ads4 {
   overflow: auto;
   width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 220px;
+  margin-right: 1000px;
   margin-bottom: 5%;
 }
 
@@ -575,6 +576,31 @@ body{
   background-image: url(../images/merchandise6.jpg);
 }
 
+.ads-text1 {
+  width: 30%;
+  position: relative;
+  top: 20%;
+  left: 7.5%;
+  font-size: larger;
+}
+
+.ads-text1 h3 {
+  text-transform: uppercase;
+  font-size: 55px;
+  line-height: 75px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 5px;
+}
+
+.ads-text1 a {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 75px;
+  color: white;
+}
+
 .ads-text2 {
   width: 30%;
   position: relative;
@@ -585,11 +611,12 @@ body{
 
 .ads-text2 h3 {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 75px;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   word-spacing: 1px;
+  letter-spacing: 5px;
 }
 
 .ads-text2 a {
