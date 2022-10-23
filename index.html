@@ -211,38 +211,83 @@
             </div>
         </div>
 
-              <div class="resvervation">
-                <div class="reservation1">
-                  <h2>Reservation</h2>
+        <!--Reservation Area-->
+              <div class="reservation1">
+                  <h2>Reservation Form</h2>
                   <hr>
-                  <label for="name">Full Name:</label>
-                   <input type="text" placeholder="Last Name,Frist Name" name="name" size="20" id="first-name"/>
-                 <label for="Email">Email Address</label>
-                   <input type="text" placeholder="mail@gmail.com" name="Email" size="20" id="email"/>
-                 <label for="Email">Phone Number</label>
-                   <input type="text" placeholder="(Area Code)1234567890" name="Phone Number" size="20" id="Phone Number"/>
-                 <label for="Review">Resvervation Details</label>
-                   <select name="Review" id="Review">
-                   <option value="1 person Table">1 person Table</option>
-                   <option value="2 person Table">2 person Table</option>
-                   <option value="3 person Table">3 person Table</option></select>
-                <label for=" Resvervation date">Resvervation Date</label>
-                   <input type="date" name="date" id="date">
-                 <input type="radio" name="Morning" id="Morning">Morning
-                <input type="radio" name="Afternoon" id="Afternoon">Afternoon
               </div>
-              <div class="reservation2">
-                <label for="Applional Request">Applional Request</label>
-               <textarea name="Applional Request" id="" cols="30" rows="9" reisize="none"></textarea>
-               <br>
-               <h3>Payment</h3>
-               <p>Payment Accepted Cards</p>
-              <p>cards</p>
-                <label for="name"> Credit Card Name:</label><input type="text" placeholder="John Doe" name="name" size="20" id="first-name"/>
-                <label for="name"> Credit Card Number:</label><input type="text" placeholder="1234567890" name="name" size="20" id="first-name"/>
-                <input type="radio" name="Morning" id="Morning">Lorem ipsum dolor sit amet.
-                <button>send </button>
+            
+                <!--Reservation Header-->
+                <div class="reservation">
+                  <!--Reservation Header-->
+                  <div class="form">
+                      <!--Reservation Form-->
+                      <form action="empty.html" method="get">
+                        <div class="form-content">
+                            <label for="fullname">Full Name</label><br>
+                            <input type="text" name="name" id="input-name" placeholder="Last Name, First Name">
+                            <br>
+                            <label for="emailaddress">Email Address</label><br>
+                            <input type="email" name="email" id="input-emailaddress" placeholder="mail@mail.com">
+                            <br>
+                            <label for="phone">Phone Number</label><br>
+                            <input type="number" name="phone" id="input-phonenumber" placeholder="(Area Code) 1234567890">
+                            <br>
+                            <label>Reservation Details</label>
+                            <br>
+                            <select name="table" class="table">
+                              <option value="1 person table">1 person table</option>
+                              <option value="2 person table">2 person table</option>
+                              <option value="3 person table">3 person table</option>
+                            </select>
+                            <br>
+                            <label for="date">Reservation Date</label><br>
+                            <input type="date" class="reservation" name="reservation"><br>
+                        </div>
+                          <div class="form-radio">
+                              <input type="radio" name="timeofday" id="morning" value="morning">
+                              <label for="morning">Morning</label>
+                              <input type="radio" name="timeofday" id="afternoon" value="afternoon">
+                              <label for="afternoon">Afternoon</label>
+                          </div>
+                      </form>
+                  </div>
+                   
+
+                  <!-- Additional Request -->
+                  <div class="form">
+                      <div class="r-header">
+                        <p>Additional Requests</p>
+                        <textarea name="requests" id="requests" cols="67" rows="10"></textarea><br>
+                      </div>
+                      <div class="payment">
+                          <div class="text">
+                              <h4>Payment</h4>
+                              <p>Payment Accepted Cards</p>
+                              <label for="cards">cards</label>
+                              <br>
+                          </div>
+                          <div class="form-credit">
+                              <label for="cardname">Credit Card Name</label>
+                              <br>
+                              <input type="text" name="cardname" id="input-cardname" placeholder="John Doe">
+                              <br>
+                              <label for="cardnumber">Credit Card Number</label>
+                              <br>
+                              <input type="number" name="cardnumber" id="input-cardnumber" placeholder="1234567890">
+                              <br>
+                          </div>
+                          <div class="form-send">
+                              <input type="checkbox" name="agree" class="agree">
+                              <label>I agree Lorem, ipsum dolor sit amet.</label><br>
+                                  <input type="button" name="send" class="send" value="Send">
+                          </div>
+                      </div>
+                  </div>
+                    
               </div>
+
+              <!--Footer Area-->
 
                 <h3>Opening Hours</h3>
                 <thead>
@@ -308,7 +353,6 @@
                     <th>09:00-22:00</th>
                     </tr>
                     </thead>                   
-              </div>
 
                <div>
                 <h3>Latest Post</h3>

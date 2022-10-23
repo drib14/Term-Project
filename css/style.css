@@ -608,15 +608,13 @@ body{
   color: white;
 }
 
-.reservation {
-  display: inline-block;
-  background-color: gray;
-}
+/*Reservation Area*/
+
 
 .reservation1 h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-left: 45%;
-  margin-bottom: 2%;
+  margin-left: 43%;
+  margin-bottom: 1%;
   text-transform: uppercase;
   font-size: 50px;
 }
@@ -626,4 +624,66 @@ body{
   margin-left: 46%;
   margin-bottom: 2%;
   margin-right: 48%;
+  margin-bottom: 2%;
+}
+
+/*Reservation Header*/
+
+.reservation {
+  overflow: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  width: 49.5%;
+  float: left;
+  background-position: center;
+  background-color: #757575;
+  position: relative;
+  padding: 30px;
+  font-size: small;
+  line-height: 1.6;
+  border-radius: 5px;
+}
+.form:nth-child(1), 
+.form:nth-child(3) {
+  margin-right: 1%;
+}
+.form:nth-child(1) {
+  background-color: rgb(226, 226, 226);
+}
+.form:nth-child(2) {
+  background-color: rgb(226, 226, 226);
+}
+.form-content input {
+  width: 100%;
+  height: 25px;
+}
+.text {
+  text-align: center;
+}
+.text p, .text label {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.form-credit label, .form-credit input {
+  width: 100%;
+  height: 25px;
+}
+.agree {
+  margin-top: 10px;
+}
+.send {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 3px ;
 }
